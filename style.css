@@ -7,8 +7,8 @@ h1 {
     text-align: center;
     font-family: fantasy;
     font-weight: 1000;
-    color: white;
-    font-size: large;
+    color: #7ea962;
+    font-size: x-large;
 }
 
 
@@ -17,6 +17,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    height: 25%;
 
 }
 
@@ -120,8 +121,8 @@ body {
 }
 
 .slider-nav a {
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     background-color: #03ff2d;
     opacity: 0.75;
