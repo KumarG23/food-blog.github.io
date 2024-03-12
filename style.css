@@ -5,11 +5,18 @@ html {
 
 h1 {
     text-align: center;
-    font-family: fantasy;
+    font-family: rowdies-bold;
     font-weight: 1000;
-    color: #7ea962;
+    color: #2e5f0e;
     font-size: x-large;
 }
+
+.rowdies-bold {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
 
 
 p {
@@ -121,8 +128,8 @@ body {
 }
 
 .slider-nav a {
-    width: 2rem;
-    height: 2rem;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
     background-color: #03ff2d;
     opacity: 0.75;
