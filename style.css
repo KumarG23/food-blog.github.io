@@ -4,7 +4,6 @@ html {
 
 .logo {
     align-items: center;
-    display: flex;
     max-width: 50%;
     max-height: 30px;
 }
@@ -16,7 +15,6 @@ html {
 
 #btns li {
     display: inline;
-    padding-top: 12px;
  
 }
 
