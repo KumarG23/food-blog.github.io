@@ -149,3 +149,18 @@ body {
     /* when hovering changes the opacity of the button */
 
 }
+
+#About-Me {
+    font-size: medium;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#gordon {
+    color: #4d3737;
+}
