@@ -9,13 +9,14 @@ html {
 }
 
 #btns {
-    display: inline;
+    display: flex;
     justify-content: center;
+
 }
 
 #btns li {
-    display: inline;
- 
+    display: flex;
+    justify-content: center;
 }
 
 
