@@ -84,7 +84,7 @@ body {
 
 .wel {
     text-align: center;
-    font-family: fantasy;
+    font-family: cursive;
     font-weight: 1000;
     color: #4d3737;
     font-size: large;
@@ -168,4 +168,26 @@ body {
 
 #gordon {
     color: #4d3737;
+}
+
+#photos {
+    font-size: medium;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#recipes {
+    font-size: medium;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
