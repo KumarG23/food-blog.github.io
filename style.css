@@ -51,6 +51,15 @@ body {
     border-radius: 5px;
     transition: all 0.5s;
 
+   /* transition-property: transform;
+    defines which property the transition effect should be applied to 
+    transition-duration: 0.5s;
+    how long the transition effect should take to complete
+    transition-timing-function: ;
+    defines the acceleration curve-ease in ease out ease in out etc. 
+    transition-delay: ;
+    how long it takes for the transition to take effect. */
+
 }
 
 .btn:hover {
@@ -58,17 +67,21 @@ body {
     /* moves buttons when hovered over */
     background-color: #4d3737;
     color: #fef5d8;
+    /* changes color when hovered over */
 
 }
 
 @keyframes slideInLeft {
+    /* name of animation */
     from {
         transform: translateX(-300px);
+        /* start 300px to the left */
 
     }
 
     to {
         transform: translateX(0);
+        /* end in original position */
 
     }
     /*gives keyframe to manipulate header */
@@ -76,11 +89,23 @@ body {
     
 .slideInLeft {
     animation: slideInLeft 1s ease-in .5s;
-    /* slides from left to right */
+    /* slides from left to right ease- in and take .5 seconds to complete*//*animation-name: slideInLeft;
+    selecting key frame
+    animation-duration: .5s;
+    how long it takes for animation to take one lap default is 0s
+    animation-timing-function: ease-in;
+    animation curve default is ease
+    animation-delay: ;
+    delay before running default is 0s
+    animation-iteration-count: ;
+    how many times the animation will run default is 1
+    animation-direction: ;
+    run normal or in reverse. normal is default
+    animation-fill-mode: ;
+    what the animation will do after animation has run default is none*/
 
 
-
-        }
+ }
 
 .wel {
     text-align: center;
@@ -92,7 +117,8 @@ body {
 
 
 .container {
-    padding: 2rem;
+    padding: 3rem;
+    padding-top: 5rem;
 }
 
 .slider-wrapper {
@@ -109,10 +135,11 @@ body {
     overflow-x: auto;
     /* hide overflowing images */
     scroll-snap-type: x mandatory;
+    /* snap to next image along x axis */
     scroll-behavior: smooth;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
     /* adds a shadow  x offset y offset blur spread color */
-    border-radius: 0.5rem;
+    border-radius: 2rem;
 }
 
 .slider img {
