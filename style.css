@@ -120,7 +120,6 @@ body {
 .container {
     margin: 0;
     padding: 0;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,4 +273,4 @@ body {
     padding-left: 10%;
     padding-right: 10%;
 }
-/* same info in differnt ids so nav buttons work. */
+/* same info in differnt ids so nav buttons work.*/

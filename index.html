@@ -28,7 +28,9 @@
         <p class="wel">Welcome to my <em>Food Blog</em></p>
 
         <p id="About-Me">I am a father to a one year old and husband to my wife of 10 years. I have also recently learned I have a passion for cooking. I have travelled the world tasting some amazing food. From Nepal to Brazil to Amsterdam. I hope to try to cook everything I can and keep making them more delicious. In this blog I will post pictures of my food and where I learned them. Hope you enjoy!</p>
-        
+
+    
+        <p class="wel"><strong>Photos</strong></p>
         <section class="container">
         <!--image slider start-->
         <div class="slider">
@@ -76,7 +78,7 @@
             var counter = 1;
            //start a counter variable to keep track of slides //
             setInterval(function (){
-                // set up an interval function to run every 3000 milliseconds (3 seconds)
+                // set up an interval function to run every 4000 milliseconds (4 seconds)
                 document.getElementById('radio' + counter).checked = true;
                 //get the radio button element with an id that matches the current counter value//
                 counter++
@@ -85,8 +87,8 @@
                     counter = 1;
                     //if the counter is greater than 4 reset back to 1 // 
                 }
-            },3000);
-            // 3000 milliseconds = 2 seconds
+            },4000);
+            // 4000 milliseconds = 4 seconds
         </script>
         </section>
 
