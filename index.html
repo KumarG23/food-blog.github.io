@@ -74,13 +74,19 @@
         <!--image slider end-->
         <script type="text/javascript">
             var counter = 1;
+           //start a counter variable to keep track of slides //
             setInterval(function (){
+                // set up an interval function to run every 3000 milliseconds (3 seconds)
                 document.getElementById('radio' + counter).checked = true;
+                //get the radio button element with an id that matches the current counter value//
                 counter++
+                // increment the counter. ++ = increment operator. this increments the value of 'counter' by 1 each time the interval triggers //
                 if(counter > 4){
-                    counter = 1;   
+                    counter = 1;
+                    //if the counter is greater than 4 reset back to 1 // 
                 }
-            },5000);
+            },3000);
+            // 3000 milliseconds = 2 seconds
         </script>
         </section>
 
