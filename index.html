@@ -28,25 +28,60 @@
         <p class="wel">Welcome to my <em>Food Blog</em></p>
 
         <p id="About-Me">I am a father to a one year old and husband to my wife of 10 years. I have also recently learned I have a passion for cooking. I have travelled the world tasting some amazing food. From Nepal to Brazil to Amsterdam. I hope to try to cook everything I can and keep making them more delicious. In this blog I will post pictures of my food and where I learned them. Hope you enjoy!</p>
-
-        <div id="photos"></div>
-        <p class="wel">Food Pics</p>
+        
         <section class="container">
-            <div class="slider-wrapper">
-                <div class="slider">
-                    <img id="slide-1" src="img/board.jpeg" alt="charcuterie-board">
-                    <img id="slide-2" src="img/crab.jpeg" alt="crab-pasta">
-                    <img id="slide-3" src="img/rice.jpeg" alt="fried-rice">
-                    <img id="slide-4" src="img/salmon.jpeg" alt="salmon-rice">
+        <!--image slider start-->
+        <div class="slider">
+            <div class="slides">
+                <!--radio buttons start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--radio buttons end-->
+                <!--slide images start-->
+                <div class="slide first">
+                    <img src="img/board.jpeg" alt="charcuterie-board">
                 </div>
-                <div class="slider-nav">
-                    <a href="#slide-1"></a>
-                    <a href="#slide-2"></a>
-                    <a href="#slide-3"></a>
-                    <a href="#slide-4"></a>
+                <div class="slide">
+                    <img src="img/crab.jpeg" alt="crab-pasta">
                 </div>
+                <div class="slide">
+                    <img src="img/rice.jpeg" alt="fried-rice">
+                </div>
+                <div class="slide">
+                    <img src="img/salmon.jpeg" alt="salmon-rice">
+                </div>
+                <!--image slide end-->
+                <!--automatic image navigation start-->
+                <div class="navigation-auto">
+                   <div class="auto-btn1"></div>
+                   <div class="auto-btn2"></div>
+                   <div class="auto-btn3"></div>
+                   <div class="auto-btn4"></div>
+                </div>
+                <!--automatic image navigation end-->
             </div>
-            
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>  
+            </div>
+            <!--manual navigation end-->
+        </div>
+        <!--image slider end-->
+        <script type="text/javascript">
+            var counter = 1;
+            setInterval(function (){
+                document.getElementById('radio' + counter).checked = true;
+                counter++
+                if(counter > 4){
+                    counter = 1;   
+                }
+            },5000);
+        </script>
         </section>
 
         <section id="recipes">
